@@ -115,4 +115,48 @@ export const HeaderLogo = () => {
     </svg>
   );
 };
+export const BestCardIcon = () => {
+  return (
+    <svg
+      width="13"
+      height="18"
+      viewBox="0 0 13 18"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g clip-path="url(#clip0_304_171)">
+        <path
+          d="M6.44389 0.22644L6.30676 0.628351V12.2908L6.44389 12.4088L12.7233 9.20889L6.44389 0.22644Z"
+          fill="#343434"
+        />
+        <path
+          d="M6.44394 0.22644L0.164551 9.20889L6.44394 12.4089V6.74829V0.22644Z"
+          fill="#8C8C8C"
+        />
+        <path
+          d="M6.44387 13.4338L6.36658 13.5151V17.6695L6.44387 17.8641L12.727 10.2355L6.44387 13.4338Z"
+          fill="#3C3C3B"
+        />
+        <path
+          d="M6.44394 17.8641V13.4338L0.164551 10.2355L6.44394 17.8641Z"
+          fill="#8C8C8C"
+        />
+        <path
+          d="M6.44385 12.4088L12.7232 9.20893L6.44385 6.74829V12.4088Z"
+          fill="#141414"
+        />
+        <path
+          d="M0.164551 9.20893L6.44386 12.4088V6.74829L0.164551 9.20893Z"
+          fill="#393939"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_304_171">
+          <rect width="13" height="18" fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+};
+
 
