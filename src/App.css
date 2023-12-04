@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+
+.ff_josefin {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.ff_playfair {
+    font-family: 'Playfair Display', serif;
+}
+
+@media (max-width: 1023.98px) {
+    .overflow_overlay_hidden {
+        overflow: hidden !important;
+        height: 100vh;
+    }
+}

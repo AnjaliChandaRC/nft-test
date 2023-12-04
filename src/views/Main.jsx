@@ -1,5 +1,6 @@
-import React from 'react'
-import Hero from '../components/Hero'
+import React from "react";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
 import BestNft from "../components/BestNft";
 import Top3Nft from "../components/Top3Nft";
 import AboutAntonym from "../components/AboutAntonym";
@@ -17,26 +18,27 @@ import FAQs from "../components/FAQs";
 import Footer from "../components/Footer";
 
 const Main = () => {
-    return (
-        <>
-            <Hero />
-            <BestNft />
-            <Top3Nft />
-            <AboutAntonym />
-            <AboutAntonymCard />
-            <CryptoPunks />
-            <CryptoPunksCard />
-            <TakashiMurakami />
-            <TakashiMurakamiCard />
-            <MostAnticipated />
-            <AnticipatedNftCard/>
-            <TopSelingNFT />
-            <TypesOfNFT />
-            <CompareNFT />
-            <FAQs />
-            <Footer/>
-        </>
-  )
-}
+  return (
+    <>
+      <Header />
+      <Hero />
+      <BestNft />
+      <Top3Nft />
+      <AboutAntonym />
+      <AboutAntonymCard />
+      <CryptoPunks />
+      <CryptoPunksCard />
+      <TakashiMurakami />
+      <TakashiMurakamiCard />
+      <MostAnticipated />
+      <AnticipatedNftCard />
+      <TopSelingNFT />
+      <TypesOfNFT />
+      <CompareNFT />
+      <FAQs />
+      <Footer />
+    </>
+  );
+};
 
-export default Main
+export default Main;
