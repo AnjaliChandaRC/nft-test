@@ -12,10 +12,11 @@ import TakashiMurakamiCard from "../components/TakashiMurakamiCard";
 import MostAnticipated from "../components/MostAnticipated";
 import AnticipatedNftCard from "../components/AnticipatedNftCard";
 import TopSelingNFT from "../components/TopSelingNFT";
-import TypesOfNFT from "../components/TypesOfNFT";
+// import TypesOfNFT from "../components/TypesOfNFT";
 import CompareNFT from "../components/CompareNFT";
-import FAQs from "../components/FAQs";
-import Footer from "../components/Footer";
+import BackToTop from "../common/BackToTop";
+// import FAQs from "../components/FAQs";
+// import Footer from "../components/Footer";
 
 const Main = () => {
   return (
@@ -33,10 +34,11 @@ const Main = () => {
       <MostAnticipated />
       <AnticipatedNftCard />
       <TopSelingNFT />
-      <TypesOfNFT />
+      {/* <TypesOfNFT /> */}
       <CompareNFT />
-      <FAQs />
-      <Footer />
+      {/* <FAQs />
+      <Footer /> */}
+      <BackToTop/>
     </>
   );
 };

@@ -44,16 +44,16 @@ export const SearchIcon = () => {
         <path
           d="M8.01156 14.096C11.5094 14.096 14.3449 11.2605 14.3449 7.76269C14.3449 4.26488 11.5094 1.42935 8.01156 1.42935C4.51375 1.42935 1.67822 4.26488 1.67822 7.76269C1.67822 11.2605 4.51375 14.096 8.01156 14.096Z"
           stroke="#00A2FF"
-          stroke-width="1.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M15.0116 14.7627L13.6782 13.4293"
           stroke="#00A2FF"
-          stroke-width="1.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
     </svg>
@@ -124,7 +124,7 @@ export const BestCardIcon = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_304_171)">
+      <g clipPath="url(#clip0_304_171)">
         <path
           d="M6.44389 0.22644L6.30676 0.628351V12.2908L6.44389 12.4088L12.7233 9.20889L6.44389 0.22644Z"
           fill="#343434"
@@ -158,5 +158,3 @@ export const BestCardIcon = () => {
     </svg>
   );
 };
-
-

@@ -3,7 +3,10 @@ import { MostNftData } from "../common/Helper";
 const MostAnticipated = () => {
   return (
     <>
-      <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-3 sm:px-5 xl:px-0 pt-[66px]">
+      <div
+        className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-3 sm:px-5 xl:px-0 pt-[66px]"
+        id="explore"
+      >
         <h2 className="text-[35px] sm:text-2xl font-bold ff_josefin text-black text-center">
           Most Anticipated NFT'S of 2022
         </h2>
@@ -24,7 +27,9 @@ const MostAnticipated = () => {
               <h4 className="text-[24px] font-bold ff_josefin text-black text-center pt-6 leading-[1]">
                 {obj.heading}
               </h4>
-              <p className="text-md font-semibold ff_josefin text-black text-center pt-3 opacity-[0.8] leading-[120%] max-h-[123px]">{ obj.para}</p>
+              <p className="text-md font-semibold ff_josefin text-black text-center pt-3 opacity-[0.8] leading-[120%] max-h-[123px]">
+                {obj.para}
+              </p>
               <div className="mt-[42px] text-center">
                 <button className="text-md font-semibold ff_josefin text-white text-center bg-[#27A099] h-[36.95px] px-[20px] border-[1px] border-solid border-[#27A099] rounded-[25px] hover:text-[#27A099] hover:bg-white transition-all ease-in-out duration-300">
                   Learn more

@@ -4,7 +4,10 @@ import topsellingTwo from "../assets/images/png/topselling-2.png";
 const TopSelingNFT = () => {
   return (
     <>
-      <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 pt-[80px] xl:pt-[91px]">
+      <div
+        className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 pt-[80px] xl:pt-[91px]"
+        id="activity"
+      >
         <h2 className="text-[35px] sm:text-2xl font-bold ff_josefin text-black text-center">
           Top Seling NFT Projects of 2021
         </h2>

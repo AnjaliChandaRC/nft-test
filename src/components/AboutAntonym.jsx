@@ -3,7 +3,10 @@ import React from "react";
 const AboutAntonym = () => {
   return (
     <>
-      <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 pt-20">
+      <div
+        className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 pt-20"
+        id="news"
+      >
         <h4 className="text-[30px] sm:text-[36px] font-bold ff_josefin text-black">
           About Antonym: GENESIS
         </h4>

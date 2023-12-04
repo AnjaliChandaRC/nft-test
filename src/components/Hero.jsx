@@ -3,7 +3,10 @@ import heroLogo from "../assets/images/svg/hero-logo.svg";
 const Hero = () => {
   return (
     <>
-      <div className="bg-[url('./assets/images/png/hero-bg.png')] h-[300px] sm:h-[350px] bg-no-repeat bg-center xl:bg-cover flex justify-center items-center">
+      <div
+        className="bg-[url('./assets/images/png/hero-bg.png')] h-[300px] sm:h-[350px] bg-no-repeat bg-center xl:bg-cover flex justify-center items-center"
+        id="profile"
+      >
         <div className="px-1">
           <h1 className="text-[32px] sm:text-xl font-semibold ff_playfair text-white text-center">
             "Best New NFT to look out for"
