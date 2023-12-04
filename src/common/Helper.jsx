@@ -55,3 +55,36 @@ export const MostNftData = [
     para: "A unique collection of 3,999 3D Rain Boys in Metaverse, stored on the Ethereum network. These NFT artworks are carefully crafted by our designers and presented in movie-grade quality. Visit rainboyclub.com for more details.",
   },
 ];
+
+export const faqs = [
+  {
+    id: 1,
+    question: "Lorem Ipsum is simply dummy text of the printing ?",
+    answer:
+      "Yes, your attributes will transfer. Special additional attributes will be added if you're lucky enough in the upgrade process.",
+  },
+  {
+    id: 2,
+    question: "Lorem Ipsum is simply dummy text of the printing ?",
+    answer:
+      "Yes, your attributes will transfer. Special additional attributes will be added if you're lucky enough in the upgrade process.",
+  },
+  {
+    id: 3,
+    question: "Lorem Ipsum is simply dummy text of the printing ?",
+    answer:
+      "Yes, your attributes will transfer. Special additional attributes will be added if you're lucky enough in the upgrade process.",
+  },
+  {
+    id: 4,
+    question: "Lorem Ipsum is simply dummy text of the printing ?",
+    answer:
+      "Yes, your attributes will transfer. Special additional attributes will be added if you're lucky enough in the upgrade process.",
+  },
+  {
+    id: 5,
+    question: "Lorem Ipsum is simply dummy text of the printing ?",
+    answer:
+      "Yes, your attributes will transfer. Special additional attributes will be added if you're lucky enough in the upgrade process.",
+  },
+];
