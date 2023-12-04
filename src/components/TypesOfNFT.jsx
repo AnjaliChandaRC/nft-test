@@ -3,7 +3,7 @@ import typeNftImg from "../assets/images/png/typenft.png";
 const TypesOfNFT = () => {
   return (
     <>
-      <div className="pt-20 px-5 xl:px-0">
+      <div className="pt-20 px-5 xl:px-0" id="best-nft">
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto">
           <h3 className="text-[35px] sm:text-2xl font-bold ff_josefin text-black text-center">
             Types of NFT

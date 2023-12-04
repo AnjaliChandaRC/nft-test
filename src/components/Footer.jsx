@@ -60,13 +60,13 @@ const Footer = () => {
                 <a href="#">Home</a>
               </li>
               <li className="text-sm font-medium ff_josefin text-white opacity-[0.6] hover:opacity-[1] transition-all ease-in-out duration-300 pt-[24px]">
-                <a href="best-nft">Best NFT</a>
+                <a href="#best-nft">Best NFT</a>
               </li>
               <li className="text-sm font-medium ff_josefin text-white opacity-[0.6] hover:opacity-[1] transition-all ease-in-out duration-300 pt-[24px]">
-                <a href="quote">NFT Quote</a>
+                <a href="#quote">NFT Quote</a>
               </li>
               <li className="text-sm font-medium ff_josefin text-white opacity-[0.6] hover:opacity-[1] transition-all ease-in-out duration-300 pt-[24px]">
-                <a href="faqs">FAQ</a>
+                <a href="#faqs">FAQ</a>
               </li>
             </ul>
             <p className="text-[12px] font-bold ff_josefin text-white text-center opacity-[0.5] sm:hidden pt-5">

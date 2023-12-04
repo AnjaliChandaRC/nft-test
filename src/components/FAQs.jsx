@@ -13,7 +13,10 @@ const FAQ = () => {
   };
 
   return (
-    <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 pt-16">
+    <div
+      className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 pt-16"
+      id="faqs"
+    >
       <h1 className="text-2xl font-bold ff_josefin text-black mb-4 text-center">
         FAQs
       </h1>

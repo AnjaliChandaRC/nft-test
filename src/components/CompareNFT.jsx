@@ -3,7 +3,7 @@ import React from "react";
 const CompareNFT = () => {
   return (
     <>
-      <div className="pt-[54px] px-5 xl:px-0">
+      <div className="pt-[54px] px-5 xl:px-0" id="quote">
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-3 sm:px-5 xl:px-0 rounded-[25px] bg-white top_3_nft_bg py-10 sm:pt-[62px] sm:pb-[58px]">
           <h3 className="text-[35px] sm:text-2xl font-bold ff_josefin text-black text-center">
             Compare NFT
